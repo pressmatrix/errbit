@@ -5,7 +5,7 @@
 # Then run `cap errbit:setup` to set up your server and finally
 # `cap deploy` whenever you would like to deploy Errbit. Refer
 # to ./docs/deployment/capistrano.md for more info
-
+#
 # config valid only for current version of Capistrano
 lock '3.4.0'
 
@@ -30,11 +30,11 @@ set :linked_dirs, fetch(:linked_dirs, []) + %w(
   vendor/bundle
 )
 
-# check out capistrano-rbenv documentation
-# set :rbenv_type, :system
-# set :rbenv_path, '/usr/local/rbenv'
-# set :rbenv_ruby, File.read(File.expand_path('../../.ruby-version', __FILE__)).strip
-# set :rbenv_roles, :all
+check out capistrano-rbenv documentation
+set :rbenv_type, :system
+set :rbenv_path, '/usr/local/rbenv'
+set :rbenv_ruby, File.read(File.expand_path('../../.ruby-version', __FILE__)).strip
+set :rbenv_roles, :all
 
 namespace :errbit do
   desc "Setup config files (first time setup)"
