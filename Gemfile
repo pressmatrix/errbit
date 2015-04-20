@@ -68,8 +68,6 @@ end
 group :development do
   gem 'capistrano', '2.15.5'
   gem 'rvm-capistrano',     require: false
-
-  # better errors
   gem 'better_errors'
   gem 'binding_of_caller', platform: 'ruby'
   gem 'meta_request'
@@ -100,6 +98,10 @@ end
 gem 'sass-rails'
 gem 'coffee-rails'
 gem 'uglifier'
+# gem 'libv8', '~> 3.16.14.0'
+# gem 'therubyracer', platforms: :ruby
+gem 'execjs'
+
 # We can't upgrade because not compatible to jquery >= 1.9.
 # To do that, we need fix the rails.js
 gem 'jquery-rails', '~> 2.1.4'

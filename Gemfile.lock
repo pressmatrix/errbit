@@ -407,6 +407,7 @@ DEPENDENCIES
   email_spec
   errbit_github_plugin!
   errbit_plugin!
+  execjs
   fabrication
   flowdock
   haml
