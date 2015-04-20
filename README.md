@@ -37,3 +37,5 @@ Seeding database
 Creating an initial admin user:
 -- email:    errbit@errbit.example.com
 -- password: tgJmFmgH3oVD
+
+:)
