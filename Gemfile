@@ -98,9 +98,9 @@ end
 gem 'sass-rails'
 gem 'coffee-rails'
 gem 'uglifier'
-# gem 'libv8', '~> 3.16.14.0'
-# gem 'therubyracer', platforms: :ruby
 gem 'execjs'
+gem 'libv8', '~> 3.16.14.0'
+gem 'therubyracer', platforms: :ruby
 
 # We can't upgrade because not compatible to jquery >= 1.9.
 # To do that, we need fix the rails.js
